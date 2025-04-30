@@ -5,7 +5,7 @@ import mysql.connector
 
 class Comunication():
      def __init__(self) :
-          self.conexion=mysql.connector.connect(host="127.0.0.1",                                               
+          self.conexion=mysql.connector.connect(host="152.202.96.38",                                               
                                       user="select_update_delete",
                                       passwd = "auto_selected@2024",
                                       database = "datosmo",
